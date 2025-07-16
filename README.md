@@ -13,8 +13,7 @@ This project models and solves the **optimal placement of solar microgrids** usi
   - Maximize population coverage  
   - Maximize energy potential  
 * 📈 Constraints:
-  - Total budget  
-  - Maximum number of sites  
+  - Total budget    
   - Minimum population served  
 * ⚡ Solves the QUBO and outputs an optimal site selection summary  
 
@@ -48,13 +47,13 @@ QGridOpti/QEnergicbackend/
 
 ## 🔧 Installation
 
-Ensure you have Python 3.8+ and install the required packages:
+Ensure you have the latest version of Python and have installed the required packages:
 
 ```bash
 pip install numpy pandas autoqubo
 ````
 
-> ℹ️ This project uses the [`autoqubo`](https://github.com/FujitsuResearch/autoqubo) library developed by [Fujitsu Research](https://github.com/FujitsuResearch) for symbolic QUBO modeling.
+> ℹ️ This project uses the [`autoqubo`](https://github.com/FujitsuResearch/autoqubo) library by [Fujitsu Research](https://github.com/FujitsuResearch), an automated QUBO generator that converts high-level Python-based optimization problems into equivalent QUBO representations.
 
 ## 🚀 Usage
 
@@ -100,4 +99,5 @@ This tool simulates the strategic placement of **off-grid solar microgrids**—a
 
 ## 🔗 See Also
 
-* [`autoqubo`](https://github.com/FujitsuResearch/autoqubo) – Official repository for the symbolic QUBO compiler used in this project, developed by [Fujitsu Research](https://github.com/FujitsuResearch).
+* [`autoqubo`](https://github.com/FujitsuResearch/autoqubo) – An automated QUBO generator developed by [Fujitsu Research](https://github.com/FujitsuResearch). It converts high-level Python optimization problems into QUBO form using a novel data-driven translation method.
+
